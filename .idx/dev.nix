@@ -8,7 +8,7 @@
     # pkgs.go
     # pkgs.python311
     # pkgs.python311Packages.pip
-    # pkgs.nodejs_20
+    pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
     pkgs.bun
   ];
@@ -38,7 +38,7 @@
       # Runs when a workspace is first created
       onCreate = {
         # Example: install JS dependencies from NPM
-        # npm-install = "npm install";
+        npm-install = "npm install";
         # bun-install = "curl -fsSL https://bun.sh/install | bash";
         # installDependencies = "bun i";
         # Open editors for the following files by default, if they exist:
